@@ -8,7 +8,7 @@ layout: home
 # Commands
 ## Create Deposit
 Send agreed amount of money to team switzerland.
-The following message syntax lets us know, that you want make a deposit.
+The following message syntax lets us know, that you want to make a deposit.
 ```bash
 @swisstrust deposit <receiving team>
 ```
