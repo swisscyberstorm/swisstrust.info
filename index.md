@@ -38,28 +38,28 @@ If there are any problems type this command. The transaction will be locked and 
 # Example Transactions
 
 ## Successful
- | Team A | Swisstrust | Team B | 
- | ------ | ---------- | ------ | 
- | Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  | 
- |  | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount |  | 
- |  |  | Sends goods to team A | 
- | Sends ‘@swisstrust greenlight 1337’ |  |  | 
- |  | Confirms successful transaction to Team A. Sends 90€ to Team B |  |  | 
+| Team A | Swisstrust | Team B |
+| ------ | ---------- | ------ |
+| Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  |
+|  | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount |  |
+|  |  | Sends goods to team A |
+| Sends ‘@swisstrust greenlight 1337’ |  |  |
+|  | Confirms successful transaction to Team A. Sends 90€ to Team B |  |  |
 
 ## Canceled
- | Team A | Swisstrust | Team B | 
- | ------ | ---------- | ------ | 
- | Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  | 
- |  | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount |  | 
- |  |  | Is no longer willing to send goods, sends message ‘@swisstrust cancel 1337’ | 
- | Sends ‘@swisstrust cancel 1337’ |  |  | 
- |  | Confirms cancelation to both teams. Sends 100€ to Team A |  |  | 
+| Team A | Swisstrust | Team B |
+| ------ | ---------- | ------ |
+| Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  |
+|  | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount |  |
+|  |  | Is no longer willing to send goods, sends message ‘@swisstrust cancel 1337’ |
+| Sends ‘@swisstrust cancel 1337’ |  |  |
+|  | Confirms cancelation to both teams. Sends 100€ to Team A |  |  |
 
 ## Escalated
- | Team A | Swisstrust | Team B | 
- | ------ | ---------- | ------ | 
- | Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  | 
- |  | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount |  | 
- |  |  | Sends goods to team A | 
- | Does not agree with sent goods from Team B. Sends ‘@swisstrust escalate 1337’ |  |  | 
- |  | Confirms escalation to both teams. Team Switzerland will review your case and help in deciding a fair solution |  |  | 
+| Team A | Swisstrust | Team B |
+| ------ | ---------- | ------ |
+| Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  |
+|  | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount |  |
+|  |  | Sends goods to team A |
+| Does not agree with sent goods from Team B. Sends ‘@swisstrust escalate 1337’ |  |  |
+|  | Confirms escalation to both teams. Team Switzerland will review your case and help in deciding a fair solution |  |  |
