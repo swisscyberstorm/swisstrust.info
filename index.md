@@ -40,11 +40,11 @@ If there are any problems type this command. The transaction will be locked and 
 ## Successful
 | Team A | Swisstrust | Team B |
 | ------ | ---------- | ------ |
-| Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  |
-|  | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount |  |
-|  |  | Sends goods to team A |
-| Sends ‘@swisstrust greenlight 1337’ |  |  |
-|  | Confirms successful transaction to Team A. Sends 90€ to Team B |  |
+| Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ | - | - |
+| - | Confirms deposit to Team A and tells transaction id = 1337. Notifies Team B about deposited amount | - |
+| - | - | Sends goods to team A |
+| Sends ‘@swisstrust greenlight 1337’ | - | - |
+| - | Confirms successful transaction to Team A. Sends 90€ to Team B | - |
 
 ## Canceled
 | Team A | Swisstrust | Team B |
