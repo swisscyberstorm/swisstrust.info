@@ -39,12 +39,6 @@ If there are any problems type this command. The transaction will be locked and 
 
 ## Successful
 
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
-
 | Team A | Swisstrust | Team B |
 | ------ | ---------- | ------ |
 | Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ | - | - |
@@ -54,6 +48,7 @@ If there are any problems type this command. The transaction will be locked and 
 | - | Confirms successful transaction to Team A. Sends 90€ to Team B | - |
 
 ## Canceled
+
 | Team A | Swisstrust | Team B |
 | ------ | ---------- | ------ |
 | Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  |
@@ -63,6 +58,7 @@ If there are any problems type this command. The transaction will be locked and 
 |  | Confirms cancelation to both teams. Sends 100€ to Team A |  |
 
 ## Escalated
+
 | Team A | Swisstrust | Team B |
 | ------ | ---------- | ------ |
 | Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ |  |  |
