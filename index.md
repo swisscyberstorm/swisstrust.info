@@ -38,6 +38,13 @@ If there are any problems type this command. The transaction will be locked and 
 # Example Transactions
 
 ## Successful
+
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
 | Team A | Swisstrust | Team B |
 | ------ | ---------- | ------ |
 | Sends 100€ to Swisstrust with message ‘@swisstrust deposit B’ | - | - |
